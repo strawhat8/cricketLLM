@@ -1,7 +1,7 @@
 
 import streamlit as st
 import os
-import google.generativeai as genai
+
 
 os.environ['GOOGLE_API_KEY'] = "AIzaSyAEnHVjbcA7-jrIhtPJULoBe7sIYBhzsYg"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
